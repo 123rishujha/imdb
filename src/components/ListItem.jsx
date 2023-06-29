@@ -15,9 +15,9 @@ const Listitems = ({ arr }) => {
   };
 
   return (
-    <div style={{ width: "90vw", boxSizing: "border-box",margin:"auto" }}>
+    <div style={{ width: "95vw", boxSizing: "border-box",margin:"auto" }}>
       <Slider {...settings}>
-        {arr.map((elem, index) => {
+        {arr?.map((elem, index) => {
           return <MovieCard key={index} {...elem} />;
         })}
       </Slider>
