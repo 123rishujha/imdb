@@ -1,0 +1,17 @@
+.mainCarouselHolder {
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+  /* border: 1px solid red; */
+}
+
+.carouselImageHolder {
+  overflow: hidden;
+  height: 100%;
+}
+
+.carouselImageHolder img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
